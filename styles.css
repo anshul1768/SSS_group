@@ -1,0 +1,333 @@
+body{
+    background-color: #1e293b;
+}
+
+
+header{
+    height:4rem;
+    width:100vw;
+}
+.bg-customize1{
+    background-color: #1e293b;
+}
+li:hover{
+    color:blue 
+}
+
+.nav-link:hover {
+  color: #0d6efd !important; /* Bootstrap’s primary blue */
+  transition: color 0.3s ease; /* smooth hover effect */
+}
+
+.color{
+    color:white;
+}
+.span{
+    color:rgb(72, 72, 195)
+}
+
+
+.fixed{
+    position: sticky;
+}
+
+/*hero section*/
+
+/*height width*/
+
+
+/* font size of hero section paragraph */
+
+.f1{
+    font-size: medium;
+}
+
+/* ✅ Hero Section */
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1e293b;
+  padding: 0 15px;
+  width: 100%;
+  overflow: hidden;
+}
+.hero-section .container {
+  max-width: 1100px;
+}
+.hero-bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15rem; /* big text size */
+  font-weight: 1000;
+  color: rgba(255, 255, 255, 0.05); /* very light / transparent */
+  letter-spacing: 15px;
+  user-select: none;
+  pointer-events: none; /* click not affected */
+}
+
+
+
+/* ✅ Responsive typography */
+.hero-section h1 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+}
+.hero-section p {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+}
+
+/* ✅ Comprehensive Section */
+#comprehensive {
+  width: 100%;
+  overflow: hidden;
+}
+#comprehensive .container {
+  max-width: 1100px;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.2);
+}
+.card-icon {
+  font-size: 2.8rem;
+  color: #0d6efd;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.card:hover .card-icon {
+  transform: scale(1.15);
+  color: #084298;
+}
+
+/* ✅ Prevent content shift or shrink */
+body, html {
+  width: 100%;
+  overflow-x: hidden;
+}
+/* 🔹 Blue Box Styling */
+.team-box {
+  width: 550px;
+  height: 450px;
+  background-color: #0d6efd;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.3);
+  text-align: center;
+}
+
+/* 🔹 Responsive Adjustments */
+@media (max-width: 768px) {
+  .team-box {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  #team h2 {
+    font-size: 1.5rem;
+  }
+  #team p {
+    font-size: 0.95rem;
+  }
+}
+
+/* 🔹 Section Alignment */
+#team .container {
+  max-width: 1100px;
+  
+}
+
+
+
+/* 🔹 Blue Box Styling */
+.team-box {
+  width: 260px;
+  height: 260px;
+  background-color: #0d6efd;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.3);
+  text-align: center;
+}
+
+/* 🔹 Responsive Adjustments */
+@media (max-width: 768px) {
+  .team-box {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  #team h2 {
+    font-size: 1.6rem;
+  }
+  #team p {
+    font-size: 0.95rem;
+  }
+}
+
+/* 🔹 Section Layout Fix */
+#team .container {
+  max-width: 1100px;
+}
+
+#team ul {
+  padding-left: 0;
+}
+
+#team li i {
+  font-size: 1.1rem;
+}
+
+/* 🔹 Paragraph Text */
+#team p {
+  line-height: 1.7;
+}
+
+
+/* ✅ Section Layout */
+#testimonials {
+  background-color: #ffffff;
+}
+#testimonials .container {
+  max-width: 1100px;
+}
+
+/* ✅ Card Styling */
+#testimonials .card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#testimonials .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(13, 110, 253, 0.15);
+}
+
+/* ✅ Review Text */
+#testimonials p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ✅ Name Styling */
+#testimonials h6 {
+  color: #000;
+  font-size: 1rem;
+}
+#testimonials small {
+  color: #777;
+}
+
+/* ✅ Icon */
+#testimonials i {
+  color: #0d6efd;
+}
+
+
+/* ✅ Section Layout */
+#verification .container {
+  max-width: 1100px;
+}
+
+/* ✅ Input Styling */
+#verification input {
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+#verification input:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+/* ✅ Button Styling */
+#verification button {
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#verification button:hover {
+  background-color: #084298;
+  transform: translateY(-2px);
+}
+
+/* ✅ Responsive Fix for Mobile */
+@media (max-width: 576px) {
+  #verification form {
+    flex-direction: column;
+    width: 100%;
+  }
+  #verification input, 
+  #verification button {
+    width: 100%;
+  }
+}
+
+
+/* ✅ Section Layout */
+#client-inquiries .container {
+  max-width: 1100px;
+}
+
+/* ✅ Heading Styling */
+#client-inquiries h2 {
+  font-size: 2.2rem;
+}
+
+/* ✅ Paragraph */
+#client-inquiries p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* ✅ Icons */
+#client-inquiries i {
+  color: #0d6efd;
+}
+
+/* ✅ Form Box */
+#client-inquiries .bg-light {
+  background-color: #0d6efd !important;
+}
+#client-inquiries .form-control,
+#client-inquiries .form-select {
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  transition: all 0.3s ease;
+}
+#client-inquiries .form-control:focus,
+#client-inquiries .form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+/* ✅ Button Hover Effect */
+#client-inquiries button {
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+#client-inquiries button:hover {
+  background-color: #084298;
+  transform: translateY(-2px);
+}
+
+/* ✅ Responsive Adjustments */
+@media (max-width: 768px) {
+  #client-inquiries h2 {
+    text-align: center;
+  }
+  #client-inquiries p {
+    text-align: center;
+  }
+}
+
